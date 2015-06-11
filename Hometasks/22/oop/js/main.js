@@ -20,6 +20,11 @@ function noMoneyNoHoney(){
     Bee.prototype.unloadPollen = function() {
         hive.addPollen(this.capacity);
     }
+	
+	//my
+	var newBee = new Bee(10, 20);
+	console.log(newBee.addPollen);
+	
 }
 noMoneyNoHoney();
 
